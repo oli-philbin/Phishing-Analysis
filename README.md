@@ -8,20 +8,18 @@ I completed the The Planet's Prestige Phishing Lab on the platform Blue Team Lab
 The Objective is to anaylsis the email and it's attachments in order to reveal what the attackers want in return for the Presidents Daughter. 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
+- Using the first 4 bytes of a file in hex to indentify the file type.
 - Development of critical thinking and problem-solving skills in cybersecurity.
+- What fields to look at when analysing an email for suspicious activity.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Cyber Chef to covert from Base64 to Hex.
+- Linux command xxd to output files in Hex.
+- Square X to open the attachment in a safe disposable file viewer.
+- Metadata2go to view the meta data of the attachment Jpeg.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+- Opened the email with notepad.
+- 
