@@ -1,7 +1,7 @@
 # Phishing Analysis Lab
 
 ## Objective
-I completed the The Planet's Prestige Phishing Lab on the platform Blue Team Labs Online. Below is some context behind the lab.
+I completed the [The Planet's Prestige](https://blueteamlabs.online/home/challenge/the-planets-prestige-e5beb8e545) Phishing Lab on the platform Blue Team Labs Online. Below is some context behind the lab.
 
 "After the meeting concluded the President was informed his daughter had disappeared. CoCanDa agents spread across multiple planets were working day and night to locate her. Two days later and there’s no update on the situation, no demand for ransom, not even a single clue regarding the whereabouts of the missing people. On the third day a CoCanDa representative, an Army Major on Earth, received an email."
 
