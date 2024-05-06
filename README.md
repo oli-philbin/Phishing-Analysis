@@ -21,5 +21,11 @@ The Objective is to anaylsis the email and it's attachments in order to reveal w
 - Metadata2go to view the meta data of the attachment Jpeg.
 
 ## Steps
-- Opened the email with notepad.
-- 
+#### Question and Answers
+What is the email service used by the malicious actor?
+
+ Email headers contain information about the source of the email, and where it has traveled in order to land in your inbox. It is important to note that some headers can be faked if an environment is set correctly. To view the email header information, The email can be opened in a text editor such as Notepad++. Line 28 shows that the email was sent from IP 93.99.104.210, with the sending domain.
+
+Answer: emkei.cz
+
+
