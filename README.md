@@ -18,7 +18,7 @@ The Objective is to anaylsis the email and it's attachments in order to reveal w
 - Cyber Chef to covert from Base64 to Hex.
 - Linux command xxd to output files in Hex.
 - Square X to open the attachment in a safe disposable file viewer.
-- Metadata2go to view the meta data of the attachment Jpeg.
+- Metadata2go to view the meta data of the files.
 
 ## Steps
 #### Question and Answers
