@@ -31,3 +31,34 @@ The Objective is to anaylsis the email and it's attachments in order to reveal w
 Answer: emkei.cz
 
 
+2) What is the Reply-To email address?
+
+The reply-to field shows where any response to this email will be sent to. The email address in this field is different to the from address which is suspicious and suggest malicious intent. This can be found on line 44 in a text editor, or by searching for the Reply-To field.
+
+![image](https://github.com/oli-philbin/Phishing-Analysis/assets/150199616/525cfcd0-2570-4f07-95c7-199ec3288025)
+
+
+Answer: negeja3921@phashter.com
+
+
+3) What is the filetype of the received attachment which helped to continue the investigation?
+
+It says the attachment is a pdf. When you use cyber chef to decode the below from base64 into hex the first 4 bytes of the hex tells you the file type. Using the website you can check which file type the bytes relate to, which is .zip.
+
+![image](https://github.com/oli-philbin/Phishing-Analysis/assets/150199616/cd2421b5-72b8-4314-94ba-4856b2c64be8)
+
+
+(https://www.garykessler.net/library/file_sigs.html)
+
+![image](https://github.com/oli-philbin/Phishing-Analysis/assets/150199616/9c96ed25-519e-4bec-86e7-cef16ef52db8)
+
+
+Answer: .zip
+
+
+3) What is the name of the malicious actor?
+
+By using exiftool, metadata about the PDF can be discovered, where other tools might only identify anticipated metadata fields based on the file type. One of the metadata fields includes the author of this document.
+
+Answer: Pestero Negeja
+
